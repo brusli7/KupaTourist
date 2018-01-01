@@ -1,0 +1,26 @@
+﻿@model Room
+
+<div class="mydiv">
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail">
+            <img src="http://placehold.it/64x64">
+            <div class="caption">
+                <h3 class="pull-right">@Model.Price.ToString("c")</h3>
+                <h3>
+                    @Html.ActionLink(Model.Name, "Details", new { id = Model.RoomId})
+                </h3>
+                @if (Model.IsBooked)
+                {
+                    <p>Already booked</p>
+
+                }
+                else
+                {
+                    <p>Available</p>
+
+                }
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+﻿@model HomeViewModel
+
+
+<div class="row">
+   
+    <div class="page-header">
+        <h1>Available rooms</h1>
+    </div>
+    @foreach(var room in Model.RoomIsBooked)
+    {
+        @Html.Partial("RoomIsBookedSummary", room)
+
+    }
+
+</div>

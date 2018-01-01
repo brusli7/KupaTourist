@@ -1,0 +1,9 @@
+﻿@model RoomsListViewModel
+
+
+@foreach (var room in Model.Rooms)
+{
+
+    @Html.Partial("RoomOverViewSummary", room)
+    
+}
