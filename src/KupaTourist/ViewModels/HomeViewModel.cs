@@ -1,9 +1,8 @@
-﻿using System;
+﻿
+using KupaTourist.DAL.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace KupaTourist.Models
+namespace KupaTourist.ViewModels
 {
     public class HomeViewModel
     {

@@ -1,0 +1,19 @@
+﻿{
+  "dependencies": {
+    "KupaTourist.DAL": "1.0.0-*",
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1",
+      "type": "platform"
+    },
+    "TimePeriodLibrary.NET": "2.1.1"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  },
+  "version": "1.0.0-*"
+}
